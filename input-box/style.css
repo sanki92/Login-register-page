@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input-container{
+ width: 12.5rem;
+ display: flex;
+ overflow:scroll;
+ scroll-behavior: smooth;
+ height: fit-content;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.input-container input{
+
+}
